@@ -1,70 +1,3 @@
-/* Basic Reset using UNIVERSAL SELECTOR */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
-
-/* To acheive equivalent of 10px without affecting users ability to change font-size in their browser for personal readability we divide 16px by 10px = 62.5% */
-html {
-  font-size: 62.5%; }
-
-body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
-  color: #777;
-  padding: 3rem;
-  box-sizing: border-box; }
-
-.header {
-  height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.65), rgba(40, 180, 133, 0.65)), url(../img/hero.jpg);
-  background-size: cover;
-  background-position: top;
-  position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%); }
-  .header__logo-box {
-    position: absolute;
-    top: 4rem;
-    left: 4rem; }
-  .header__logo {
-    height: 3.5rem; }
-  .header__text-box {
-    position: absolute;
-    /* These 2 %'s are in relation to the parent element */
-    top: 40%;
-    left: 50%;
-    /* Transform moves the text in relation to the text-box */
-    transform: translate(-50%, -50%);
-    text-align: center; }
-
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase;
-  /* The following property prevents animation "hop" */
-  backface-visibility: hidden;
-  margin-bottom: 6rem; }
-  .heading-primary--main {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out; }
-  .heading-primary--sub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: 1.75rem;
-    animation: moveInRight 1s ease-out;
-    /* animation-name: moveInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out; */ }
-
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -94,6 +27,51 @@ body {
   100% {
     opacity: 1;
     transform: translate(0); } }
+
+/* Basic Reset using UNIVERSAL SELECTOR */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+/* To acheive equivalent of 10px without affecting users ability to change font-size in their browser for personal readability we divide 16px by 10px = 62.5% */
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box; }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  /* The following property prevents animation "hop" */
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1s ease-out;
+    /* animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; */ }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -137,3 +115,25 @@ body {
 .btn--animated {
   animation: moveInBottom 0.5s ease-out 0.75s;
   animation-fill-mode: backwards; }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.65), rgba(40, 180, 133, 0.65)), url(../img/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%); }
+  .header__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__logo {
+    height: 3.5rem; }
+  .header__text-box {
+    position: absolute;
+    /* These 2 %'s are in relation to the parent element */
+    top: 40%;
+    left: 50%;
+    /* Transform moves the text in relation to the text-box */
+    transform: translate(-50%, -50%);
+    text-align: center; }
