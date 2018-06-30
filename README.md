@@ -10,7 +10,9 @@
 
 ### Tech Stack
 
+- SASS
 - CSS3
 - HTML5
+- node-sass
 
 #### Created July 2018, MIT

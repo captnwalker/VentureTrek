@@ -1,0 +1,27 @@
+{
+  "name": "venturetrek",
+  "version": "1.0.0",
+  "description": "Travel Site Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captnwalker/VentureTrek.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "travel"
+  ],
+  "author": "Steve Walker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captnwalker/VentureTrek/issues"
+  },
+  "homepage": "https://github.com/captnwalker/VentureTrek#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
