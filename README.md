@@ -1,6 +1,6 @@
 # VentureTrek
 
-## A Travel Company Website Landing Page built with SASS and FlexBox
+## A Travel Company Website Landing Page built with SASS
 
 ### Purpose of this Project
 
