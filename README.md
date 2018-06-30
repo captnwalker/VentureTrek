@@ -1,10 +1,12 @@
-# VentureTrek
+# VentureTrek **IN DEVELOPMENT**
 
 ## A Travel Company Website Landing Page built with SASS
 
 ### Purpose of this Project
 
 ### Link to Live Site
+
+<https://captnwalker.github.io/VentureTrek/>
 
 ### Screenshot
 
