@@ -1,6 +1,6 @@
 # VentureTrek
 
-## A Travel Company Website built in CSS3 and FlexBox
+## A Travel Company Website Landing Page built with SASS and FlexBox
 
 ### Purpose of this Project
 
@@ -14,5 +14,11 @@
 - CSS3
 - HTML5
 - node-sass
+
+### Steps to deploy this project locally
+
+1.  Clone this repo
+2.  Run `npm install`
+3.  In a new cli run `npm run compile:sass` to start compiler running in background. Leave this cli open to keep compiler running on each save.
 
 #### Created July 2018, MIT
