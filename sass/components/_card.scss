@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 6px;
+    border-radius: $border-radius-1;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
