@@ -19,6 +19,14 @@
 
 <https://captnwalker.github.io/VentureTrek/>
 
+### Screenshots (Mobile) of this project
+
+![VentureTrek1](https://raw.github.com/captnwalker/VentureTrek/master/img/vt1.JPG "VentureTrek1")
+
+![VentureTrek2](https://raw.github.com/captnwalker/VentureTrek/master/img/vt2.JPG "VentureTrek2")
+
+![VentureTrek3](https://raw.github.com/captnwalker/VentureTrek/master/img/vt3.JPG "VentureTrek3")
+
 ### Tech Stack
 
 - SASS/SCSS
