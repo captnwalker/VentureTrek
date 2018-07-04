@@ -2,12 +2,8 @@
   text-align: center !important;
 }
 
-.u-margin-bottom-lrg {
-  margin-bottom: 8rem !important;
-
-  @include respond(tab-port) {
-    margin-bottom: 5rem !important;
-  }
+.u-margin-bottom-sm {
+  margin-bottom: 1.5rem !important;
 }
 
 .u-margin-bottom-med {
@@ -18,8 +14,12 @@
   }
 }
 
-.u-margin-bottom-sm {
-  margin-bottom: 1.5rem !important;
+.u-margin-bottom-lrg {
+  margin-bottom: 8rem !important;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem !important;
+  }
 }
 
 .u-margin-top-lrg {

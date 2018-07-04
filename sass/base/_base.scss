@@ -22,9 +22,9 @@ html {
     font-size: 50%; //1rem = 8px, 8/16 = 50%
   }
 
-  @include respond(mobile) {
-    font-size: 30%; //1rem = 4.8px, 8/16 = 50%
-  }
+  // @include respond(mobile) {
+  //   font-size: 30%; //1rem = 4.8px, 8/16 = 50%
+  // }
 
   @include respond(big-desktop) {
     font-size: 75%; //1rem = 12px, 12/16 = 75%
@@ -33,9 +33,13 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 6rem;
+  padding: 3rem;
 
   @include respond(tab-port) {
     padding: 0;
   }
+}
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
 }
