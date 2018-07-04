@@ -12,3 +12,42 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+// MEDIA QUERY AUTOMATION MIXIN
+/*
+0 -600px:       Mobile
+600 - 900px:    Tablet-portrait
+900 - 1200px:   Tablet-landscape
+1200 - 1800:    Range this site was built for. Normal Desktop. 
+1800px + :      Big Desktop
+
+$breakpoint arguement choices:
+- mobile
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px so 600 / 16 = 37.5em
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 37em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}

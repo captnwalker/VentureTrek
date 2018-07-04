@@ -1,3 +1,18 @@
+/*
+0 -600px:       Mobile
+600 - 900px:    Tablet-portrait
+900 - 1200px:   Tablet-landscape
+1200 - 1800:    Range this site was built for. Normal Desktop. 
+1800px + :      Big Desktop
+
+$breakpoint arguement choices:
+- mobile
+- tab-port
+- tab-land
+- big-desktop
+
+1em = 16px so 600 / 16 = 37.5em
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -40,6 +55,18 @@
 - This defines what 1 rem equals in this project */
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 37em) {
+    html {
+      font-size: 30%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
