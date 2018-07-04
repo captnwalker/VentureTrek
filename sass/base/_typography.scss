@@ -76,6 +76,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+#company-name {
+  font-size: 3rem;
+  letter-spacing: 2rem;
+  text-shadow: 2px 2px $color-black;
+}
 .paragraph {
   font-size: 1.6rem;
   &:not(:last-child) {

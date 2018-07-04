@@ -1,21 +1,29 @@
-# VentureTrek **IN DEVELOPMENT**
+# VentureTrek
 
 ## A Travel Company Website Landing Page built with SASS
 
 ### Purpose of this Project
 
+> VentureTrek is a "proof-of-concept" travel site landing page presented as a showcase for numerous CSS effects complied from SASS/SCSS such as:
+
+- Custom "Hamburger" menu & buttons
+- Bezier gradients
+- Transistions
+- Animations
+- Embedded video background
+- Cusom "flippable" cards
+- Responsive images
+- Fully responsive design through media queries
+
 ### Link to Live Site
 
 <https://captnwalker.github.io/VentureTrek/>
 
-### Screenshot
-
 ### Tech Stack
 
-- SASS
+- SASS/SCSS
 - CSS3
 - HTML5
-- node-sass
 
 ### Steps to deploy this project locally
 
