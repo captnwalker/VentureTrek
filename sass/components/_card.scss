@@ -161,8 +161,11 @@
     font-size: 6rem;
     font-weight: 100;
   }
-  // Begin media queries complete rewrite of this section. Hovers are eleminated and Card backs moved to the front.
-  @include respond(tab-port) {
+  // Begin media queries complete rewrite of this section. Hovers are eleminated and Card backs moved to the front. The custom media query detects touch screens like ipads and rendeers the combined card mobile version. 
+  // @include respond(tab-port) {
+    @media only screen and (max-width: 75em), 
+      only screen and (hover: none) {
+
     height: auto;
     margin-top: 3rem;
     border-radius: 3px;
