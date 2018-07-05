@@ -22,12 +22,21 @@
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);
     transition: all 0.5s 0.2s;
+    @include respond(tab-port) {
+      width: 95%;
+      display: block;
+  }
+
   }
 
   &__left {
     // width: 33.333333%;
     width: calc(100% * (1 / 3));
     display: table-cell;
+    @include respond(tab-port) {
+      width: 0;
+      display: none;
+  }
   }
 
   &__right {
@@ -37,10 +46,13 @@
     vertical-align: middle;
     padding: 3rem 5rem;
   }
-
+   
   &__img {
     display: block;
     width: 100%;
+    @include respond(tab-port) {
+     display: none;
+    }
   }
 
   &__text {
@@ -60,6 +72,22 @@
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+
+    @include respond(tab-port) {
+      font-size: 1.4rem;
+      margin-bottom: 4rem;
+  
+      -moz-column-count: 1;
+  
+      column-count: 1;
+  
+      // NOTE: As of 7/2018 the folowing attributes are not yet supported in Chrome on Windows
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+      
+  }
   }
 
   // Open states
