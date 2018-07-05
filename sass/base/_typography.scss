@@ -12,12 +12,15 @@ body {
   /* The following property prevents animation "hop" */
   backface-visibility: hidden;
   margin-bottom: 3rem;
+  text-shadow: 1.5px 1.5px $color-black;
 
   &--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
     letter-spacing: 3.5rem;
+    
+
 
     animation-name: moveInLeft;
     animation-duration: 1s;

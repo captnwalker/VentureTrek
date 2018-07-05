@@ -88,7 +88,8 @@ body {
   text-transform: uppercase;
   /* The following property prevents animation "hop" */
   backface-visibility: hidden;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  text-shadow: 1.5px 1.5px #000; }
   .heading-primary--main {
     display: block;
     font-size: 6rem;
