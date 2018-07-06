@@ -32,6 +32,7 @@
 - SASS/SCSS
 - CSS3
 - HTML5
+- NodeJS
 
 ### Steps to deploy this project locally
 

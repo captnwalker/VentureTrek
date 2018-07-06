@@ -4,3 +4,4 @@ const navItems = navigation.querySelectorAll('.navigation__item');
 navItems.forEach(item =>
   item.addEventListener('click', _ => (navCheckbox.checked = false))
 );
+
